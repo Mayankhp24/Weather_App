@@ -9,20 +9,20 @@ body {
     background-image: url(https://www.teahub.io/photos/full/9-98727_weather-…ktop-wallpaper5-data-src-weather-wallpaper-hd.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
-    color: #fff;
+    background-size: 1900px 1080px;
+    color: #000;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .container {
     width: 500px;
-    height: 340px;
+    height: 320px;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
     border: 5px solid black;
     border-radius: 15px;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .container h1 {
@@ -32,6 +32,7 @@ body {
     font-size: 80px;
     letter-spacing: 4px;
     margin-top: 20px;
+    color: #fff;
 }
 
 .container input[type="text"] {
@@ -73,6 +74,31 @@ body {
 
 .btn:hover {
     background: #14334e;
-    color: #fff;
+    color: #000;
     font-family: 'Nunito Sans', sans-serif;
+}
+.showData {
+    line-height: 1.4;
+}
+.showData ul {
+    list-style-type: none;
+}
+
+.showData .city {
+    font-size: 4rem;
+    font-family: 'Glory', sans-serif;
+    font-weight: 900;
+}
+
+.showData .temp {
+    font-size: 3.5rem;
+    font-weight: 750;
+    font-family: 'Glory', sans-serif;
+}
+
+.showData .desc {
+    font-size: 2.5rem;
+    margin-top: 90px;
+    font-family: 'Glory', sans-serif;
+    font-weight: 600;
 }
